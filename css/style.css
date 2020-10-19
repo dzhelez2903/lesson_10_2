@@ -9,14 +9,80 @@
     font-weight: normal;
     src: url('../fonts/LatoBold.woff') format('woff');
 }
+
 @font-face {
     font-family: 'LatoLight';
     font-style: normal;
     font-weight: normal;
     src: url('../fonts/LatoLight.woff') format('woff');
 }
+
 @font-face {
     font-family: 'PlayfairDisplay';
     font-style: normal;
     font-weight: normal;
     src: url('../fonts/PlayfairDisplay.woff') format('woff');
+}
+
+div {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 260px 236px 250px 220px;
+    box-shadow: inset 0px 0px 0px 120px rgba(0, 0, 0, 0.02);
+}
+
+div :nth-child(1) {
+    font-family: 'Lato Bold';
+    font-size: 42pt;
+    color: #171717;
+}
+
+div :nth-child(2) {
+    display: inline-block;
+    float: left;
+    line-height: 95pt;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-family: 'Playfair Display';
+    font-size: 110pt;
+    color: #171717;
+}
+
+.text {
+    font-family: 'LatoLight';
+    line-height: 40px;
+    font-size: 16pt;
+    padding-top: 40px;
+    color: #171717;
+}
+
+div :nth-child(6) {
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+    padding-right: 40px;
+    font-family: 'LatoLight';
+    font-size: 60pt;
+    color: #171717;
+}
+
+div :nth-child(7) {
+    font-family: 'LatoLight';
+    line-height: 160px;
+    font-size: 24pt;
+    font-style: italic;
+    color: #171717;
+}
+
+div :nth-child(8) {
+    background-color: white;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-size: 18pt;
+    color: #eaa258;
+    border: 4px solid #eaa258;
+    padding: 25px 75px;
+}
+div :nth-child(8):hover {
+    cursor: pointer;
+}
